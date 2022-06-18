@@ -1,10 +1,5 @@
-class Solution(object):
-    def shuffle(self, nums, n):
-        rnums=[]
-        for i in range(n):
-            rnums.append(nums[i])
-            rnums.append(nums[n+i])
-        return rnums
+array = [12 , 134 , 132434 , 122 , 2323 , 23,1, 2244]
 
-
-Solution().shuffle([2,5,1,3,4,7] , 3)
+for i in array:
+    if len(str(i)) % 2 == 0:
+        print(i)
